@@ -43,3 +43,7 @@ table {
 #btn-RED.selected {
     background-color: darkred;
 }
+
+a {
+    color: gold;
+}
