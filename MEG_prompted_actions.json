@@ -272,11 +272,11 @@
  {
    "Phase": "EOT",
    "Action": "E1",
-   "Description": "Generals within 4BW Recovering Wounds",
-   "SUG": "",
-   "DRILLED": "",
-   "FORMED": "",
-   "TRIBAL": "",
+   "Description": "Generals within 4BW Recovering Wounds.",
+   "SUG": "NA",
+   "DRILLED": "NA",
+   "FORMED": "NA",
+   "TRIBAL": "NA",
    "Notes": "RED if UG in Combat, YELLOW otherwise; general with may use upgrade."
  }
 ]
