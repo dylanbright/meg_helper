@@ -1,0 +1,32 @@
+Phase,Action,Description,SUG,DRILLED,FORMED,TRIBAL,Notes
+Charge,C1,Move SuG to allow others to charge,WHITE,NA,NA,NA,Any WHITE SuG move; only if it allows a charge.
+Charge,C2,Prompt Charges,GREEN,GREEN,GREEN,GREEN,Wheel up to 90° at beginning of charge. An unengaged file of an engaged TuG can charge 1BW
+Charge,C3,Stop Forced Charges,N/A,GREEN,YELLOW,RED,DC/CLs ≤3BW + non-missile-focused ≤1BW. Don't have to charge if ≥3 down in charge combat.
+Charge,C4,Countercharge or Intercept,YELLOW,YELLOW,YELLOW,RED,Countercharge can wheel; intercept not. Normal move -1BW. May not start or go closer than 1BW to chargers.
+Charge or Movement,CM1,Move General,GREEN,GREEN,GREEN,GREEN,Max 1 move per Phase - any time in movement phase or 2.1 in charge phase.
+Charge or Movement,CM2,Generals within 2BW Prompting through Fire YELLOW 1BW recovered; RED 2BW recovered.,NA,NA,NA,NA,
+Movement,M1,Switch Flexibles (a) or Redress Ranks (b),GREEN,GREEN,YELLOW,RED,a) Convert formation type b) rearrange bases on the same frontage. Neither when UG in combat
+Movement,M2,Advance Directly Ahead (short if desired),WHITE,WHITE,WHITE,WHITE,No deviation. SuGs can contr/exp ≤2BW within move. Up to 2BW allowed after run away/skirmish.
+Movement,M3,Advance with Wheel,WHITE,GREEN,GREEN,YELLOW,"One wheel ≤ 90° per move, wheel at any time in move. SuGs can contr/exp up to 2BW within move."
+Movement,M4,Advance with Double Wheel,GREEN,GREEN,YELLOW,RED,"Each wheel ≤ 90°, must have 1BW directly ahead between wheels, and always ≥2 BW from enemy TuGs."
+Movement,M5,Full Ahead with Shift,WHITE,GREEN,RED,NA,"Max distance and then shift 1BW to either side at end of move, must stay ≥4 BW from enemy TuGs."
+Movement,M6,Advance and Contract,WHITE,GREEN,GREEN,RED,"≥2BW directly ahead, contract 1 or 2BW in behind, no wheels allowed, ≥2 BW from enemy TuGs."
+Movement,M7,Expand while stationary,WHITE,GREEN,GREEN,YELLOW,Expand frontage by 1BW on either or both sides while stationary. Can redress ranks at same time.
+Movement,M8,Contract on the spot,WHITE,YELLOW,YELLOW,RED,Contract by 1 or 2BW while stationary. Can redress ranks at same time. ≥4 BW from enemy TuGs.
+Movement,M9,Turn 90°or 180° on the spot,WHITE,GREEN,YELLOW,YELLOW,Turn. Expand to legal formation. Can redress. 180° allowed after run away/skirmish.
+Movement,M10,Turn 180° with Move (not pikes),WHITE,YELLOW,RED,NA,Turn at beginning or end. Can redress. -1BW + may include 1 wheel. Up to 2BW after run away/skirmish.
+Movement,M11,Turn 90° and Move (not pikes),WHITE,YELLOW,RED,NA,"As M9, but move -1BW per file of width before turning, may include 1 wheel."
+Movement,M12,"Fall Back ≤3BW with Cv, Cm, Ch, or Skirmish Infantry",GREEN,YELLOW,YELLOW,RED,Directly backwards. Max before slowing is lower of speed in terrain and 3BW.
+Movement,M13,Fall Back ≤2BW with other troops,N/A,YELLOW,RED,RED,Directly backwards. Max before slowing is lower of speed in terrain and 2BW.
+Movement,M14,Double Move: 2 Consecutive GREEN (or WHITE) Moves,GREEN,YELLOW,YELLOW,R,Must stay ≥4BW from enemy TuGs. TuGs cannot push back SuGs on second move.
+Movement,M15,Move Independent Artillery,RED,NA,NA,NA,"Cannot move as a block; may only move directly ahead, wheel, turn 90˚ or turn 180˚"
+Movement or Fight Phase If In Frontal Combat,MF1,Move Unengaged Bases to single different file,WHITE,GREEN,GREEN,YELLOW,"Create supporting files, fill gaps, create ranks, fight enemy supporting file. Multiple actions allowed."
+Movement or Fight Phase If In Frontal Combat,MF2,Turn Bases 90°or 180° to face enemy in contact,WHITE,WHITE,GREEN,GREEN,Turn any or all bases with enemy in frontal contact with their flank or rear to face enemy.
+Fighting,F1,Control Pursuit,GREEN,YELLOW,RED,NA,"Not for devastating chargers/charging lancers. Cv,Cm,Ch,El reduced to 2BW; others reduced to 1BW."
+Fighting,F2,"Break Off Cv, Cm, or Ch from Slower Foot",GREEN,GREEN,GREEN,YELLOW,"Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to
+breaking off = when in combat and as affected by terrain."
+Fighting,F3,Break Off from other Slower Enemy,GREEN,YELLOW (KaB),YELLOW (KaB),RED (KaB),"Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to
+breaking off = when in combat and as affected by terrain."
+Fighting,F4,Break Off from Equal Speed Enemy,YELLOW (KaB),YELLOW (KaB),RED (KAB),NA,"Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to
+breaking off = when in combat and as affected by terrain."
+EOT,E1,Generals within 4BW Recovering Wounds,,,,,"RED if UG in Combat, YELLOW otherwise; general with may use upgrade."

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEG Helper: Prompted Actions</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <h1>Prompted Actions</h1>
+    <button id="clearFilters" onclick="clearFilters()">Clear Filters</button>
+    <h3>Filter by phase</h3>
+    <button id="btn-Charge" onclick="filterByPhase('Charge')">Charge</button>
+    <button id="btn-Charge_or_Movement" onclick="filterByPhase('Charge_or_Movement')">Charge or Movement</button>
+    <button id="btn-Movement" onclick="filterByPhase('Movement')">Movement</button>
+    <button id="btn-Movement_or_Fight_Phase_If_In_Frontal_Combat" onclick="filterByPhase('Movement_or_Fight_Phase_If_In_Frontal_Combat')">Movement or Fight Phase If In Frontal Combat</button>
+    <button id="btn-Fighting" onclick="filterByPhase('Fighting')">Fighting</button>
+    <button id="btn-EOT" onclick="filterByPhase('EOT')">EOT</button>
+    <h3>Filter by Training</h3>
+    <button id="btn-SUG" onclick="filterColumn('SUG')">SUG</button>
+    <button id="btn-DRILLED" onclick="filterColumn('DRILLED')">DRILLED</button>
+    <button id="btn-FORMED" onclick="filterColumn('FORMED')">FORMED</button>
+    <button id="btn-TRIBAL" onclick="filterColumn('TRIBAL')">TRIBAL</button>
+    <button id="btn-Generals" onclick="filterGenerals()">Generals</button>
+    <h3>Filter by highest color card</h3>
+    <button id="btn-WHITE" onclick="filterColor('WHITE')">WHITE</button>
+    <button id="btn-GREEN" onclick="filterColor('GREEN')">GREEN</button>
+    <button id="btn-YELLOW" onclick="filterColor('YELLOW')">YELLOW</button>
+    <button id="btn-RED" onclick="filterColor('RED')">RED</button>
+    <h3>Filter by Key Words in Description</h3>
+    <button id="btn-advance" onclick="filterByWord('advance')">Advance</button>
+    <button id="btn-wheel" onclick="filterByWord('wheel')">Wheel</button>
+    <button id="btn-turn" onclick="filterByWord('turn')">Turn</button>
+    <button id="btn-expand" onclick="filterByWord('expand')">Expand</button>
+    <button id="btn-contract" onclick="filterByWord('contract')">Contract</button>
+    <button id="btn-fall_back" onclick="filterByWord('fall_back')">Fall Back</button>
+    <table id="dataTable"></table>
+    <script src="script.js"></script>
+</body>
+</html>

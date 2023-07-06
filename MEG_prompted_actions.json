@@ -1,0 +1,282 @@
+[
+ {
+   "Phase": "Charge",
+   "Action": "C1",
+   "Description": "Move SuG to allow others to charge",
+   "SUG": "WHITE",
+   "DRILLED": "NA",
+   "FORMED": "NA",
+   "TRIBAL": "NA",
+   "Notes": "Any WHITE SuG move; only if it allows a charge."
+ },
+ {
+   "Phase": "Charge",
+   "Action": "C2",
+   "Description": "Prompt Charges",
+   "SUG": "GREEN",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "GREEN",
+   "Notes": "Wheel up to 90° at beginning of charge. An unengaged file of an engaged TuG can charge 1BW"
+ },
+ {
+   "Phase": "Charge",
+   "Action": "C3",
+   "Description": "Stop Forced Charges",
+   "SUG": "NA",
+   "DRILLED": "GREEN",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "DC/CLs ≤3BW + non-missile-focused ≤1BW. Don't have to charge if ≥3 down in charge combat."
+ },
+ {
+   "Phase": "Charge",
+   "Action": "C4",
+   "Description": "Countercharge or Intercept",
+   "SUG": "YELLOW",
+   "DRILLED": "YELLOW",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "Countercharge can wheel; intercept not. Normal move -1BW. May not start or go closer than 1BW to chargers."
+ },
+ {
+   "Phase": "Charge or Movement",
+   "Action": "CM1",
+   "Description": "Move General",
+   "SUG": "GREEN",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "GREEN",
+   "Notes": "Max 1 move per Phase - any time in movement phase or 2.1 in charge phase."
+ },
+ {
+   "Phase": "Charge or Movement",
+   "Action": "CM2",
+   "Description": "Generals within 2BW Prompting through Fire YELLOW 1BW recovered; RED 2BW recovered.",
+   "SUG": "NA",
+   "DRILLED": "NA",
+   "FORMED": "NA",
+   "TRIBAL": "NA",
+   "Notes": ""
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M1",
+   "Description": "Switch Flexibles (a) or Redress Ranks (b)",
+   "SUG": "GREEN",
+   "DRILLED": "GREEN",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "a) Convert formation type b) rearrange bases on the same frontage. Neither when UG in combat"
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M2",
+   "Description": "Advance Directly Ahead (short if desired)",
+   "SUG": "WHITE",
+   "DRILLED": "WHITE",
+   "FORMED": "WHITE",
+   "TRIBAL": "WHITE",
+   "Notes": "No deviation. SuGs can contr/exp ≤2BW within move. Up to 2BW allowed after run away/skirmish."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M3",
+   "Description": "Advance with Wheel",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "YELLOW",
+   "Notes": "One wheel ≤ 90° per move, wheel at any time in move. SuGs can contr/exp up to 2BW within move."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M4",
+   "Description": "Advance with Double Wheel",
+   "SUG": "GREEN",
+   "DRILLED": "GREEN",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "Each wheel ≤ 90°, must have 1BW directly ahead between wheels, and always ≥2 BW from enemy TuGs."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M5",
+   "Description": "Full Ahead with Shift",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "RED",
+   "TRIBAL": "NA",
+   "Notes": "Max distance and then shift 1BW to either side at end of move, must stay ≥4 BW from enemy TuGs."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M6",
+   "Description": "Advance and Contract",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "RED",
+   "Notes": "≥2BW directly ahead, contract 1 or 2BW in behind, no wheels allowed, ≥2 BW from enemy TuGs."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M7",
+   "Description": "Expand while stationary",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "YELLOW",
+   "Notes": "Expand frontage by 1BW on either or both sides while stationary. Can redress ranks at same time."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M8",
+   "Description": "Contract on the spot",
+   "SUG": "WHITE",
+   "DRILLED": "YELLOW",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "Contract by 1 or 2BW while stationary. Can redress ranks at same time. ≥4 BW from enemy TuGs."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M9",
+   "Description": "Turn 90°or 180° on the spot",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "YELLOW",
+   "TRIBAL": "YELLOW",
+   "Notes": "Turn. Expand to legal formation. Can redress. 180° allowed after run away/skirmish."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M10",
+   "Description": "Turn 180° with Move (not pikes)",
+   "SUG": "WHITE",
+   "DRILLED": "YELLOW",
+   "FORMED": "RED",
+   "TRIBAL": "NA",
+   "Notes": "Turn at beginning or end. Can redress. -1BW + may include 1 wheel. Up to 2BW after run away/skirmish."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M11",
+   "Description": "Turn 90° and Move (not pikes)",
+   "SUG": "WHITE",
+   "DRILLED": "YELLOW",
+   "FORMED": "RED",
+   "TRIBAL": "NA",
+   "Notes": "As M9, but move -1BW per file of width before turning, may include 1 wheel."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M12",
+   "Description": "Fall Back ≤3BW with Cv, Cm, Ch, or Skirmish Infantry",
+   "SUG": "GREEN",
+   "DRILLED": "YELLOW",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "Directly backwards. Max before slowing is lower of speed in terrain and 3BW."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M13",
+   "Description": "Fall Back ≤2BW with other troops",
+   "SUG": "NA",
+   "DRILLED": "YELLOW",
+   "FORMED": "RED",
+   "TRIBAL": "RED",
+   "Notes": "Directly backwards. Max before slowing is lower of speed in terrain and 2BW."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M14",
+   "Description": "Double Move: 2 Consecutive GREEN (or WHITE) Moves",
+   "SUG": "GREEN",
+   "DRILLED": "YELLOW",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "Must stay ≥4BW from enemy TuGs. TuGs cannot push back SuGs on second move."
+ },
+ {
+   "Phase": "Movement",
+   "Action": "M15",
+   "Description": "Move Independent Artillery",
+   "SUG": "RED",
+   "DRILLED": "NA",
+   "FORMED": "NA",
+   "TRIBAL": "NA",
+   "Notes": "Cannot move as a block; may only move directly ahead, wheel, turn 90˚ or turn 180˚"
+ },
+ {
+   "Phase": "Movement or Fight Phase If In Frontal Combat",
+   "Action": "MF1",
+   "Description": "Move Unengaged Bases to single different file",
+   "SUG": "WHITE",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "YELLOW",
+   "Notes": "Create supporting files, fill gaps, create ranks, fight enemy supporting file. Multiple actions allowed."
+ },
+ {
+   "Phase": "Movement or Fight Phase If In Frontal Combat",
+   "Action": "MF2",
+   "Description": "Turn Bases 90°or 180° to face enemy in contact",
+   "SUG": "WHITE",
+   "DRILLED": "WHITE",
+   "FORMED": "GREEN",
+   "TRIBAL": "GREEN",
+   "Notes": "Turn any or all bases with enemy in frontal contact with their flank or rear to face enemy."
+ },
+ {
+   "Phase": "Fighting",
+   "Action": "F1",
+   "Description": "Control Pursuit",
+   "SUG": "GREEN",
+   "DRILLED": "YELLOW",
+   "FORMED": "RED",
+   "TRIBAL": "NA",
+   "Notes": "Not for devastating chargers/charging lancers. Cv,Cm,Ch,El reduced to 2BW; others reduced to 1BW."
+ },
+ {
+   "Phase": "Fighting",
+   "Action": "F2",
+   "Description": "Break Off Cv, Cm, or Ch from Slower Foot",
+   "SUG": "GREEN",
+   "DRILLED": "GREEN",
+   "FORMED": "GREEN",
+   "TRIBAL": "YELLOW",
+   "Notes": "Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to\nbreaking off = when in combat and as affected by terrain."
+ },
+ {
+   "Phase": "Fighting",
+   "Action": "F3",
+   "Description": "Break Off from other Slower Enemy",
+   "SUG": "GREEN",
+   "DRILLED": "YELLOW",
+   "FORMED": "YELLOW",
+   "TRIBAL": "RED",
+   "Notes": "YELLOW, and RED also reqyuire a KaB test! Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to\nbreaking off = when in combat and as affected by terrain."
+ },
+ {
+   "Phase": "Fighting",
+   "Action": "F4",
+   "Description": "Break Off from Equal Speed Enemy",
+   "SUG": "YELLOW",
+   "DRILLED": "YELLOW",
+   "FORMED": "RED",
+   "TRIBAL": "NA",
+   "Notes": "YELLOW, and RED also reqyuire a KaB test! Directly backwards 2BW to move distance -1BW. Max is move speed in terrain. Speed defined as prior to\nbreaking off = when in combat and as affected by terrain."
+ },
+ {
+   "Phase": "EOT",
+   "Action": "E1",
+   "Description": "Generals within 4BW Recovering Wounds",
+   "SUG": "",
+   "DRILLED": "",
+   "FORMED": "",
+   "TRIBAL": "",
+   "Notes": "RED if UG in Combat, YELLOW otherwise; general with may use upgrade."
+ }
+]
