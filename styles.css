@@ -1,5 +1,11 @@
+body {
+    background-color: #5F2871;
+}
+
+
 table {
     border-collapse: collapse;
+    background-color: #DCD0C2;
   }
   
   th, td {
@@ -9,4 +15,31 @@ table {
   }
   .selected {
     background-color: #ccc;
+}
+
+#btn-GREEN {
+    background-color: green;
+    color: white;
+}
+
+#btn-GREEN.selected {
+    background-color: darkgreen;
+}
+
+#btn-YELLOW {
+    background-color: yellow;
+    color: black;
+}
+
+#btn-YELLOW.selected {
+    background-color: darkgoldenrod;
+}
+
+#btn-RED {
+    background-color: red;
+    color: white;
+}
+
+#btn-RED.selected {
+    background-color: darkred;
 }
