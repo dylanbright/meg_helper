@@ -17,6 +17,22 @@ table {
     background-color: #ccc;
 }
 
+h1 {
+    color: gold;
+}
+
+h3 {
+    color: gold;
+}
+
+#btn-WHITE {
+    background-color: white;
+}
+
+#btn-WHITE.selected {
+    background-color: #ccc;
+}
+
 #btn-GREEN {
     background-color: green;
     color: white;
