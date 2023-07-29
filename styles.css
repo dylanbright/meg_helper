@@ -63,3 +63,15 @@ h3 {
 a {
     color: gold;
 }
+
+/* Filter button styles */
+.filter-btn {
+    font-size: 24px;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .filter-btn:hover {
+    background-color: #ddd;
+  }

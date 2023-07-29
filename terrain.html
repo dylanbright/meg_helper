@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div><h3>PBS Terrain Helper</h3></div>  
+  <div id="filter-buttons"></div>
+
+  <div id="terrain-data"></div>
+
+<!-- Static PBS table 1 -->
+<table>
+
+    <tr>
+      <th colspan="2">Setting up the Terrain</th>
+    </tr>
+  
+    <tr>
+      <td>Secure Flanks (vertical axis of the PBS Map)</td>
+      <td>- items cannot be moved by opponent.</td>
+    </tr>
+  
+    <tr>
+      <td>Any deep water flank</td>
+      <td>covers the full table width, and is placed by the defender &le; 6BW* into the table (therefore entirely secure).</td>
+    </tr>
+  
+    <tr>
+      <td>Otherwise</td>
+      <td>place compulsory-sized terrain from those noted on the side of the PBS Map for the battle location (must be allowed in territory type).</td>
+    </tr>
+  
+  </table>
+<!-- Static PBS table 2 -->
+  <table>
+
+    <tr>
+      <th>Terrain type</th>
+      <th>Compulsory items in total (shared)</th>
+      <th>Optional items each (per player)</th>
+    </tr>
+  
+    <tr>
+      <td>Very Dense</td> 
+      <td>2 Rough/Good and 2 Difficult</td>
+      <td>Up to 3 any</td>
+    </tr>
+  
+    <tr>
+      <td>Dense</td>
+      <td>1 Rough/Good and 2 Difficult</td> 
+      <td>Up to 2 any</td>
+    </tr>
+  
+    <tr>
+      <td>Normal</td>
+      <td>2 Rough/Good or Difficult</td>
+      <td>Up to 2 any</td>
+    </tr>
+  
+    <tr>
+      <td>Open</td>
+      <td>1 Rough/Good or Difficult</td>
+      <td>Up to 1 (no Impassable)</td>
+    </tr>
+  
+    <tr>
+      <td>Featureless</td>
+      <td>Nothing</td>
+      <td>Up to 1 (no Impassable)</td>
+    </tr>
+  
+  </table>
+
+<!-- Static PBS table 3 -->
+  <table>
+    <tr>
+      <td>
+        The defender chooses a compulsory item, then the invader until all are chosen.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Compulsory items must cover at least 6BW x 6BW* minimum and fit within 10BW x 10BW*.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Place compulsory items alternatively starting with the defender. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        AFTER compulsory items are down, repeat the process for optional items.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Optional items must cover at least 4BW x 4BW* and fit within 8BW x 8BW*.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Other Terrain Placement (i.e. not Secure Flank items)</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        The table has two flank sectors of 10BW* - the remainder is the centre.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        The placement dice is a D6 and results are always taken from your own perspective. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        1/2 = left flank sector, 3/4 centre sector, 5/6 right flank sector; odd numbers must touch a table edge.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        At initial placement, all items must be at least 2BW from any terrain other than deep water (may touch these). 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Then d6 for opposing player who can: a) move item up to 6 BW on 4+, b) pivot item on 5+, c) remove item on a 6.
+      </td>
+    </tr>
+  </table>
+
+
+  <p>This website contains information sourced from the wargames rules, <a href="https://mortem-et-gloriam.co.uk/meg/">Mortem et Gloriam</a>. All rights belong to the respective owners. This website does not claim any copyright to the content.</p>
+  <script src="terrain.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+{
+    "open_area": {
+      "name": "open_area",
+      "territory_types": ["any"], 
+      "movement": "good going",
+      "description": "Flat ground clear of any terrain.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "Can be placed to block enemy terrain placement.  Leave on table for show or remove.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1669110151888273068/AAB33A1F3674719C49EBBEC48271E62F6776E7C9/"
+    },
+    "rocky_ground": {
+      "name": "rocky_ground",
+      "territory_types": ["any"],
+      "movement": "rough",
+      "description": "Flat ground with patches of rock.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "Elephants treat as good going.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631959794/287D79B04EAD53D5A7B73B0A1DD88CCE5FFD0792/"
+    },
+    "brush": {
+      "name": "brush",
+      "territory_types": ["any"],
+      "movement": "rough",
+      "description": "Substantially low shrubbery that obstructs movement and inhibits visibility.",
+      "visibility": "Visibility: Infantry SuGs visibile at 3 BW.",
+      "cover": "",
+      "special_rules": "Camels and Elephants treat as good going.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631679793/EBE23C22B1ED3B700820F5318A1694C23C5BDC45/"
+    },
+    "ploughed_fields": {
+      "name": "ploughed_fields",
+      "territory_types": ["any"],
+      "movement": "rough",
+      "description": "Open ground that has been ploughed or planted.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "Elephants treat as good going.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631793936/3E0EA24D8CABBBF9BD629D40203768F06838E115/"
+    },
+    "tall_crops": {
+      "name": "tall_crops",
+      "territory_types": ["any"],
+      "movement": "rough",
+      "description": "Open ground that has been ploughed or planted.",
+      "visibility": "Visibility: Infantry visibile at 3 BW.",
+      "cover": "",
+      "special_rules": "Elephants treat as good going.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631793936/3E0EA24D8CABBBF9BD629D40203768F06838E115/"
+    },
+    "hills": {
+      "name": "hills",
+      "territory_types": ["any"],
+      "movement": "good going",
+      "description": "Mild slopes offering uphill advantage.",
+      "visibility": "Visibility: All visible within 2BW over a ridge.",
+      "cover": "",
+      "special_rules": "Uphill Combat Claim if entirely on slope and nearer centre/ridge than opponent.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1294171285965455372/6D33FF6EB647BA9C39CDAAC0EA7FF3BC8DDCA43E/"
+    },
+    "village": {
+      "name": "village",
+      "territory_types": ["any"],
+      "movement": "difficult",
+      "description": "Rual huts and buildings with surrounding pens for livestock.",
+      "visibility": "Visibility: Troops visible at 2 BW.",
+      "cover": "Cover: Any bases shot at when fulling within; or any shot at from or through terrain.",
+      "special_rules": "",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194632044473/E8B7D8872194BB9C6B7274F71F2DE658F4B1DC58/"
+    },
+    "forest": {
+      "name": "forest",
+      "territory_types": ["S", "F", "J", "M"],
+      "movement": "difficult",
+      "description": "Densly packed woods with heavy undergrowth.",
+      "visibility": "Troops visible at 1BW.",
+      "cover": "Any Bases shot at when fully within or any target shot at or from or through terrain.",
+      "special_rules": "Troops may only shoot or fight 1 rank deep - so SuGs cannot shoot.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1056604919810095281/D92B95FE36FDFE37276D57D20C60ABFB5C2D27B9/"
+    },
+    "boundaried_fields": {
+      "name": "boundaried_fields",
+      "territory_types": ["S", "C"],
+      "movement": "rough",
+      "description": "Fields that have hedges or walls around them and are potentially defensible.",
+      "visibility": "Visibility: Infantry visibile at 3 BW.",
+      "cover": "Cover: After 800 BCE, any bases defending the edge.",
+      "special_rules": "Obstacles pre 800CE, or Barricades from 800CE.  A maximum of 1 per pre-laid town or village.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631793936/3E0EA24D8CABBBF9BD629D40203768F06838E115/"
+    },
+    "orchards": {
+      "name": "orchards",
+      "territory_types": ["S", "C"],
+      "movement": "difficult",
+      "description": "Organised and regular plantations of full fruit or olive trees with regular spacings.",
+      "visibility": "Visibility: Infantry visibile at 3 BW.",
+      "cover": "Cover: Any bases shot at when fully within; or any target shot at from or through terrain.",
+      "special_rules": "Elephants treat as rough.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631793936/3E0EA24D8CABBBF9BD629D40203768F06838E115/"
+    },
+    "vineyards": {
+      "name": "vineyards",
+      "territory_types": ["S", "C"],
+      "movement": "difficult",
+      "description": "Rows of vines growing to tall shrub height.",
+      "visibility": "Visibility: Infantry visibile at 3 BW.",
+      "cover": "Cover: Any infantry fully within.",
+      "special_rules": "Elephants treat as rough.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631793936/3E0EA24D8CABBBF9BD629D40203768F06838E115/"
+    },
+    "town": {
+      "name": "town",
+      "territory_types": ["S", "C"],
+      "movement": "difficult",
+      "description": "Stone developments with roads, temples, squares.",
+      "visibility": "Visibility: Troops visibile at 1 BW.",
+      "cover": "Cover: Any shot at when fully within or any target shot at from or through terrain.",
+      "special_rules": "Boundary can be defended from inside as Barricades in Charge Combat Only.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1294171976562520174/A75E4757707F221084966139B783D65DA2556B50/"
+    },
+    "woods": {
+      "name": "woods",
+      "territory_types": ["S", "C", "F", "J", "M"],
+      "movement": "rough",
+      "description": "Natural woods with modest density and undergrowth.",
+      "visibility": "Troops visible at 2BW.",
+      "cover": "Any Bases shot at when fully within or any target shot at or from or through terrain.",
+      "special_rules": "SuGs can only shoot 2 ranks deep, others 1 rank deep.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1056604919810095281/D92B95FE36FDFE37276D57D20C60ABFB5C2D27B9/"
+    },
+    "gully": {
+      "name": "gully",
+      "territory_types": ["J", "F", "P", "D"],
+      "movement": "rough",
+      "description": "Significant depression in the ground with easy slopes and a flat even bottom.",
+      "visibility": "Troops visible at 2BW from outside; those inside can see and shoot out.",
+      "cover": "",
+      "special_rules": "Troops fighting in outer 1 BW and nearer edge of gully are uphill.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1669110151888273068/AAB33A1F3674719C49EBBEC48271E62F6776E7C9/"
+    },
+    "marsh": {
+      "name": "marsh",
+      "territory_types": ["C", "M", "F", "J", "P", "D"],
+      "movement": "difficult",
+      "description": "Boggy ground and pools of standing water, including a shallow oasis.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1056604919810095379/0D3285C74959280FC90BBF4B968884A74740ED32/"
+    },
+    "mountains": {
+      "name": "mountains",
+      "territory_types": ["S", "C", "D", "M", "P"],
+      "movement": "difficult", 
+      "description": "Steep and uneven slopes that are difficult to cross.",
+      "visibility": "All visible within 2BW over a ridge.",
+      "cover": "",
+      "special_rules": "Uphill Combat Claims if entirely on slope and nearer center/ridge than opponent.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194632442672/6A1503493FD01A8A6A352C23D2E67EEDF2F2B03F/"
+    },
+    "swamp": {
+      "name": "swamp",
+      "territory_types": ["J"],
+      "movement": "difficult",
+      "description": "Very soft ground with deep sections of water.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "UGs suffer KaB if ANY bases in them move.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1056604919810095379/0D3285C74959280FC90BBF4B968884A74740ED32/"
+    },
+    "sandy_ground": {
+      "name": "sandy_ground",
+      "territory_types": ["D"],
+      "movement": "difficult",
+      "description": "Large patches of soft and shifting sand.",
+      "visibility": "",
+      "cover": "",
+      "special_rules": "Camels treat as Good Going",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1056604919810095029/BA1EE81DB4FBC2ED070A0EC89453096763A9E6FD/"
+    },
+    "wadi": {
+      "name": "wadi",
+      "territory_types": ["D"],
+      "movement": "difficult",
+      "description": "Significant depression in the ground with rocky and brushy bottom",
+      "visibility": "All visible at 2BW from outside; those inside can see and shoot out.",
+      "cover": "",
+      "special_rules": "Troops fighting in outer 1BW and nearer edge of gully are uphill",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1794100194631679793/EBE23C22B1ED3B700820F5318A1694C23C5BDC45/"
+    },
+    "sand_dunes": {
+      "name": "sand_dunes",
+      "territory_types": ["D"],
+      "movement": "difficult",
+      "description": "Desert slopes with soft sifting sand, difficult to sustain footing on slopes.",
+      "visibility": "All visible at 2BW over a ridge",
+      "cover": "",
+      "special_rules": "Camels treat as Good Going, no benefit for being uphill.",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1255889970622290126/8AC5B9EB16D9D23102FB1C8E9FC725B90D9C041A/"
+    }
+  }

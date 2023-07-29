@@ -1,42 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Unofficial MEG Helper: Prompted Actions</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unofficial MEG Helper</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .button {
+            display: inline-block;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+        }
 
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Unofficial MEG Helper: Prompted Actions</h1>
-    <button id="clearFilters" onclick="clearFilters()">Clear Filters</button>
-    <h3>Filter by phase</h3>
-    <button id="btn-Charge" onclick="filterByPhase('Charge')">Charge</button>
-    <button id="btn-Charge_or_Movement" onclick="filterByPhase('Charge_or_Movement')">Charge or Movement</button>
-    <button id="btn-Movement" onclick="filterByPhase('Movement')">Movement</button>
-    <button id="btn-Movement_or_Fight_Phase_If_In_Frontal_Combat" onclick="filterByPhase('Movement_or_Fight_Phase_If_In_Frontal_Combat')">Movement or Fight Phase If In Frontal Combat</button>
-    <button id="btn-Fighting" onclick="filterByPhase('Fighting')">Fighting</button>
-    <button id="btn-EOT" onclick="filterByPhase('EOT')">EOT</button>
-    <h3>Filter by type/training</h3>
-    <button id="btn-SUG" onclick="filterColumn('SUG')">SUG</button>
-    <button id="btn-DRILLED" onclick="filterColumn('DRILLED')">DRILLED</button>
-    <button id="btn-FORMED" onclick="filterColumn('FORMED')">FORMED</button>
-    <button id="btn-TRIBAL" onclick="filterColumn('TRIBAL')">TRIBAL</button>
-    <button id="btn-Generals" onclick="filterGenerals()">Generals</button>
-    <h3>Show only rows with this color or lower.  Works best with type/training filter.</h3>
-    <button id="btn-WHITE" onclick="filterColor('WHITE')">WHITE</button>
-    <button id="btn-GREEN" onclick="filterColor('GREEN')">GREEN</button>
-    <button id="btn-YELLOW" onclick="filterColor('YELLOW')">YELLOW</button>
-    <button id="btn-RED" onclick="filterColor('RED')">RED</button>
-    <h3>Filter by key words in description</h3>
-    <button id="btn-advance" onclick="filterByWord('advance')">Advance</button>
-    <button id="btn-wheel" onclick="filterByWord('wheel')">Wheel</button>
-    <button id="btn-turn" onclick="filterByWord('turn')">Turn</button>
-    <button id="btn-double" onclick="filterByWord('double')">Double</button>
-    <button id="btn-expand" onclick="filterByWord('expand')">Expand</button>
-    <button id="btn-contract" onclick="filterByWord('contract')">Contract</button>
-    <button id="btn-fall_back" onclick="filterByWord('fall_back')">Fall Back</button>
-    <table id="dataTable"></table>
+    <div class="main-container">
+        <h1>The Unofficial MEG Helper</h1>
+        <a href="terrain.html" class="button button1">PBS Terrain</a>
+        <a href="prompted_actions.html" class="button button1">Prompted Actions</a>
+    </div>
     <p>This website contains information sourced from the wargames rules, <a href="https://mortem-et-gloriam.co.uk/meg/">Mortem et Gloriam</a>. All rights belong to the respective owners. This website does not claim any copyright to the content.</p>
-    <script src="script.js"></script>
 </body>
 </html>
